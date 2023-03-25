@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
   }
 }

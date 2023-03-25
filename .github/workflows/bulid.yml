@@ -8,7 +8,8 @@ jobs:
     secound-job:
         runs-on: windows-latest
         steps:
-            - run: node --version
             - uses: actions/checkout@v3
             - run: npm install 
+            - run: npx eslint index.js --fix
             - run: node index.js
+   
