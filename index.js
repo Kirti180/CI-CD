@@ -1,1 +1,4 @@
-console.log("my first job")
+// console.log("my first job")
+const shortid = require('shortid');
+ 
+console.log(shortid.generate());
