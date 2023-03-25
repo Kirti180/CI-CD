@@ -5,3 +5,9 @@ jobs:
         steps:
             - run: node --version
             - run: npm --version
+    secound-job:
+        runs-on: windows-latest
+        steps:
+            - run: node --version
+            - uses: actions/checkout@v3
+            - run: node index.js
